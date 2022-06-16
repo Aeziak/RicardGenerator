@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+	padding:0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	width: 97%;
+	height: 10%;
+	background: #ffd300;
+	padding: 1.5%;
+	display: flex;
+	align-items: center;
+}
+
+#ricard_logo {
+	font-weight: bold;
+}
+
+#catch_phrase {
+	margin-left: 2%;
+}
+
+footer {
+	width: 100%;
+	height: 8%;
+	background: #ffd300;
+	text-align: center;
+	position:absolute;
+	bottom: 0;
+}
+
+#ricard_phrase {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 50px;
+
+}
