@@ -3,6 +3,10 @@
 <head>
     <title>UN PETIT RICARD MON PEQUELET ?</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta property="og:title" content="Ricard Generator" />
+    <meta property="og:type" content="text" />
+    <meta property="og:url" content="http://yandererp.fr/ricard/" />
+    <meta property="og:image" content="http://yandererp.fr/ricard/img/logo.svg" />
 </head>
 <header>
     <img src="img/logo.svg" id="ricard_logo">
@@ -18,7 +22,7 @@ $appartenance = ["mon", "ton", "votre", "notre", "votre", "votre"];
 $thirdPro = ["Il", "Elle", "On"];
 $thirdProPlur = ["Ils", "Elles"];
 $rimes = ["abeillard","antibrouillard","are","arrhe","ars","art","babillard","baléare","Baléares","bayard","bayart","béquillard","Bihar","billard","billiard","bimilliard","boïar","boïard","bouillard","boyard","braillard","briard","brouillard","Cagouillard","camoiards","candjiar","caniards","cendrillards","centiare","chevillard","chevrillard","chiard","chiare","coliart","colin-maillard","coquillard","coquillart","corbillard","corneillards","Coudehard","couillard","criard","débrouillard","décaare","déciare","douillard","Égliseneuve-des-Liards","égrillard","escarbillard","fayard","foyard","franchouillard","fuyard","gaillard","gniard","grappillard","grenouillard","guignards","hare","hart","Hayard","iyar","kandjar","kandjlar","kanglar","lahar","liard","magyar","millard","milliard","milliare","Montbéliard","montchabouillard","nasillard","nonilliard","octilliard","oeillard","oreillard","paillard","papouillard","patouillard","piaillards","pillard","pouillard","quadrilliard","quillard","quintilliard","rondouillard","savoyard","scribouillard","septilliard","sextilliard","tortillard","trilliard","trouillard","vasouillard","vétillard","vieillard"];
-$inBetween = ["Pourtant", "Cependant", "Tandis", "Du moins", "Néanmoins", "Seulement", "Or", "Évidemment", "Pendant que"];
+$inBetween = ["Pourtant", "Cependant", "Tandis que", "Du moins", "Néanmoins", "Seulement", "Or", "Évidemment", "Pendant que"];
 $pronouns[2] = $thirdPro[array_rand($thirdPro)];
 $pronouns[5] = $thirdProPlur[array_rand($thirdProPlur)];
 $selectedPronoun = array_rand($pronouns);
